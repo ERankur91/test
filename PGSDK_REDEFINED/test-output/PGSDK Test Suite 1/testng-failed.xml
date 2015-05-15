@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PGSDK Test Suite 1]" parallel="tests">
+  <parameter name="port" value="4753"/>
+  <parameter name="udid" value="0123456789ABCDEF"/>
+  <test name="PGSDK Run 1(failed)">
+    <parameter name="port" value="4753"/>
+    <parameter name="udid" value="0123456789ABCDEF"/>
+    <classes>
+      <class name="com.test.android.testCases.TestRunTimeMatrics">
+        <methods>
+          <include name="TC_16"/>
+          <include name="tearDown"/>
+          <include name="getInfo"/>
+          <include name="launch_app"/>
+        </methods>
+      </class> <!-- com.test.android.testCases.TestRunTimeMatrics -->
+    </classes>
+  </test> <!-- PGSDK Run 1(failed) -->
+</suite> <!-- Failed suite [PGSDK Test Suite 1] -->

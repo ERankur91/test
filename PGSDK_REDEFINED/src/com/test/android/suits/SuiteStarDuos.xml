@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="PGSDK Test Suite 1" parallel="tests">
+
+	<test name="PGSDK Run 1" parallel="false" preserve-order="true">
+		<parameter name="port" value="4733"></parameter>
+		<parameter name="udid" value="X9L0214917002178"></parameter>  
+		<classes>
+			<class name="com.test.android.testCases.RunAppMultiple" />
+		</classes>
+	</test>
+	
+</suite> 
+
+<!-- ///real 4203111ce2f19100 -->
