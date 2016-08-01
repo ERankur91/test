@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="35" passed="34">
+  <reporter-output>
+  </reporter-output>
+  <suite name="PGSDK Test Suite 1" duration-ms="3063633" started-at="2015-04-29T13:15:00Z" finished-at="2015-04-29T14:06:03Z">
+    <groups>
+    </groups>
+    <test name="PGSDK Run 1" duration-ms="3063633" started-at="2015-04-29T13:15:00Z" finished-at="2015-04-29T14:06:03Z">
+      <class name="com.test.android.testCases.TestRunTimeMatrics">
+        <test-method status="PASS" signature="launch_app(java.lang.String, java.lang.String)[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="launch_app" is-config="true" duration-ms="14550" started-at="2015-04-29T18:45:00Z" finished-at="2015-04-29T18:45:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4753]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0123456789ABCDEF]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_app -->
+        <test-method status="PASS" signature="TC_01()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="TC_01" duration-ms="308130" started-at="2015-04-29T18:45:14Z" description="allow install app sensor, run app in foreground for 5 min" finished-at="2015-04-29T18:50:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01 -->
+        <test-method status="PASS" signature="getInfo(org.testng.ITestResult)[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="getInfo" is-config="true" duration-ms="6" started-at="2015-04-29T18:50:22Z" finished-at="2015-04-29T18:50:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_01 status=SUCCESS method=TestRunTimeMatrics.TC_01()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInfo -->
+        <test-method status="PASS" signature="TC_02()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="TC_02" duration-ms="205806" started-at="2015-04-29T18:50:22Z" description="log 20 single events and remain idle in foreground for 2 min" finished-at="2015-04-29T18:53:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02 -->
+        <test-method status="PASS" signature="getInfo(org.testng.ITestResult)[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="getInfo" is-config="true" duration-ms="6" started-at="2015-04-29T18:53:48Z" finished-at="2015-04-29T18:53:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_02 status=SUCCESS method=TestRunTimeMatrics.TC_02()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInfo -->
+        <test-method status="PASS" signature="TC_03()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="TC_03" duration-ms="42296" started-at="2015-04-29T18:53:48Z" description="run app in background for 20 seconds, run app in foreground for 10s" finished-at="2015-04-29T18:54:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_03 -->
+        <test-method status="PASS" signature="getInfo(org.testng.ITestResult)[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="getInfo" is-config="true" duration-ms="5" started-at="2015-04-29T18:54:31Z" finished-at="2015-04-29T18:54:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_03 status=SUCCESS method=TestRunTimeMatrics.TC_03()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInfo -->
+        <test-method status="PASS" signature="TC_03()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="TC_03" duration-ms="42135" started-at="2015-04-29T18:54:31Z" description="run app in background for 20 seconds, run app in foreground for 10s" finished-at="2015-04-29T18:55:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_03 -->
+        <test-method status="PASS" signature="getInfo(org.testng.ITestResult)[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="getInfo" is-config="true" duration-ms="0" started-at="2015-04-29T18:55:13Z" finished-at="2015-04-29T18:55:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_03 status=SUCCESS method=TestRunTimeMatrics.TC_03()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInfo -->
+        <test-method status="PASS" signature="TC_04()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="TC_04" duration-ms="35177" started-at="2015-04-29T18:55:13Z" description="log 3 single events, then run app in backgroud for 15s and stay idle in foreground for 5s" finished-at="2015-04-29T18:55:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_04 -->
+        <test-method status="PASS" signature="getInfo(org.testng.ITestResult)[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="getInfo" is-config="true" duration-ms="2" started-at="2015-04-29T18:55:48Z" finished-at="2015-04-29T18:55:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_04 status=SUCCESS method=TestRunTimeMatrics.TC_04()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInfo -->
+        <test-method status="PASS" signature="TC_04()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="TC_04" duration-ms="35376" started-at="2015-04-29T18:55:48Z" description="log 3 single events, then run app in backgroud for 15s and stay idle in foreground for 5s" finished-at="2015-04-29T18:56:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_04 -->
+        <test-method status="PASS" signature="getInfo(org.testng.ITestResult)[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="getInfo" is-config="true" duration-ms="6" started-at="2015-04-29T18:56:23Z" finished-at="2015-04-29T18:56:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_04 status=SUCCESS method=TestRunTimeMatrics.TC_04()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInfo -->
+        <test-method status="PASS" signature="TC_05()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="TC_05" duration-ms="193122" started-at="2015-04-29T18:56:23Z" description="log foreground and background event, and navigate to FG and BG in 30s interval for 3 mins" finished-at="2015-04-29T18:59:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_05 -->
+        <test-method status="PASS" signature="TC_06()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="TC_06" duration-ms="300010" started-at="2015-04-29T18:59:36Z" description="remain idle in foreground for 5 min" finished-at="2015-04-29T19:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_06 -->
+        <test-method status="PASS" signature="getInfo(org.testng.ITestResult)[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="getInfo" is-config="true" duration-ms="0" started-at="2015-04-29T18:59:36Z" finished-at="2015-04-29T18:59:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_05 status=SUCCESS method=TestRunTimeMatrics.TC_05()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInfo -->
+        <test-method status="PASS" signature="getInfo(org.testng.ITestResult)[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="getInfo" is-config="true" duration-ms="3" started-at="2015-04-29T19:04:36Z" finished-at="2015-04-29T19:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_06 status=SUCCESS method=TestRunTimeMatrics.TC_06()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInfo -->
+        <test-method status="PASS" signature="TC_07()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="TC_07" duration-ms="26594" started-at="2015-04-29T19:04:36Z" description="navigate to BG using back button, run app in background for 20s, run app in foreground for 5s" finished-at="2015-04-29T19:05:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_07 -->
+        <test-method status="PASS" signature="getInfo(org.testng.ITestResult)[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="getInfo" is-config="true" duration-ms="2" started-at="2015-04-29T19:05:03Z" finished-at="2015-04-29T19:05:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_07 status=SUCCESS method=TestRunTimeMatrics.TC_07()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInfo -->
+        <test-method status="PASS" signature="TC_07()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="TC_07" duration-ms="26441" started-at="2015-04-29T19:05:03Z" description="navigate to BG using back button, run app in background for 20s, run app in foreground for 5s" finished-at="2015-04-29T19:05:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_07 -->
+        <test-method status="PASS" signature="getInfo(org.testng.ITestResult)[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="getInfo" is-config="true" duration-ms="3" started-at="2015-04-29T19:05:29Z" finished-at="2015-04-29T19:05:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_07 status=SUCCESS method=TestRunTimeMatrics.TC_07()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInfo -->
+        <test-method status="PASS" signature="TC_08()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="TC_08" duration-ms="120061" started-at="2015-04-29T19:05:29Z" description="remain idle in background for 2 min" finished-at="2015-04-29T19:07:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_08 -->
+        <test-method status="PASS" signature="getInfo(org.testng.ITestResult)[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="getInfo" is-config="true" duration-ms="3" started-at="2015-04-29T19:07:30Z" finished-at="2015-04-29T19:07:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_08 status=SUCCESS method=TestRunTimeMatrics.TC_08()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInfo -->
+        <test-method status="PASS" signature="TC_09()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="TC_09" duration-ms="121370" started-at="2015-04-29T19:07:30Z" description="remain idle in foreground for 2 min" finished-at="2015-04-29T19:09:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_09 -->
+        <test-method status="PASS" signature="getInfo(org.testng.ITestResult)[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="getInfo" is-config="true" duration-ms="2" started-at="2015-04-29T19:09:31Z" finished-at="2015-04-29T19:09:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_09 status=SUCCESS method=TestRunTimeMatrics.TC_09()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInfo -->
+        <test-method status="PASS" signature="TC_12()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="TC_12" duration-ms="42685" started-at="2015-04-29T19:09:31Z" description="run app in background for 20 seconds, run app in foreground for 10s" finished-at="2015-04-29T19:10:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_12 -->
+        <test-method status="PASS" signature="getInfo(org.testng.ITestResult)[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="getInfo" is-config="true" duration-ms="1" started-at="2015-04-29T19:10:14Z" finished-at="2015-04-29T19:10:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_12 status=SUCCESS method=TestRunTimeMatrics.TC_12()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInfo -->
+        <test-method status="PASS" signature="TC_12()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="TC_12" duration-ms="41912" started-at="2015-04-29T19:10:14Z" description="run app in background for 20 seconds, run app in foreground for 10s" finished-at="2015-04-29T19:10:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_12 -->
+        <test-method status="PASS" signature="getInfo(org.testng.ITestResult)[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="getInfo" is-config="true" duration-ms="2" started-at="2015-04-29T19:10:56Z" finished-at="2015-04-29T19:10:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_12 status=SUCCESS method=TestRunTimeMatrics.TC_12()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInfo -->
+        <test-method status="PASS" signature="TC_13()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="TC_13" duration-ms="194645" started-at="2015-04-29T19:10:56Z" description="log foreground and background event, and navigate to FG and BG in 30s interval for 3 mins" finished-at="2015-04-29T19:14:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_13 -->
+        <test-method status="PASS" signature="getInfo(org.testng.ITestResult)[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="getInfo" is-config="true" duration-ms="0" started-at="2015-04-29T19:14:10Z" finished-at="2015-04-29T19:14:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_13 status=SUCCESS method=TestRunTimeMatrics.TC_13()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInfo -->
+        <test-method status="PASS" signature="TC_14()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="TC_14" duration-ms="121913" started-at="2015-04-29T19:14:10Z" description="remain idle in background for 2 min" finished-at="2015-04-29T19:16:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_14 -->
+        <test-method status="PASS" signature="getInfo(org.testng.ITestResult)[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="getInfo" is-config="true" duration-ms="2" started-at="2015-04-29T19:16:12Z" finished-at="2015-04-29T19:16:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_14 status=SUCCESS method=TestRunTimeMatrics.TC_14()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInfo -->
+        <test-method status="PASS" signature="TC_15()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="TC_15" duration-ms="120014" started-at="2015-04-29T19:16:12Z" description="remain idle in foreground for 2 min" finished-at="2015-04-29T19:18:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_15 -->
+        <test-method status="PASS" signature="getInfo(org.testng.ITestResult)[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="getInfo" is-config="true" duration-ms="2" started-at="2015-04-29T19:18:12Z" finished-at="2015-04-29T19:18:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_15 status=SUCCESS method=TestRunTimeMatrics.TC_15()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInfo -->
+        <test-method status="FAIL" signature="TC_16()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="TC_16" duration-ms="2104" started-at="2015-04-29T19:18:12Z" description="navigate to background and switch off the wifi network" finished-at="2015-04-29T19:18:14Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 47 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:03'
+System info: host: 'LetsGoMo', ip: '192.168.1.213', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities [{app=D:\Eclipse\PGSDK_REDEFINED/raw/WithoutGoExternalCall.apk, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, version=4.2, deviceName=Android Device, deviceReadyTimeout=15, launchTimeout=30000, bootstrap-port=4754, platform=LINUX, desired={app=D:\Eclipse\PGSDK_REDEFINED/raw/WithoutGoExternalCall.apk, newCommandTimeout=900000, browserName=Android, platformName=Android, udid=0123456789ABCDEF, version=4.2, deviceName=Android Device, deviceReadyTimeout=15, launchTimeout=30000, bootstrap-port=4754}, newCommandTimeout=900000, platformVersion=4.1, webStorageEnabled=false, locationContextEnabled=false, browserName=Android, takesScreenshot=true, javascriptEnabled=true, platformName=Android, udid=0123456789ABCDEF}]
+Session ID: e4d5a10e-c765-4815-b56b-6db43aadcb15]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 47 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:03'
+System info: host: 'LetsGoMo', ip: '192.168.1.213', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities [{app=D:\Eclipse\PGSDK_REDEFINED/raw/WithoutGoExternalCall.apk, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, version=4.2, deviceName=Android Device, deviceReadyTimeout=15, launchTimeout=30000, bootstrap-port=4754, platform=LINUX, desired={app=D:\Eclipse\PGSDK_REDEFINED/raw/WithoutGoExternalCall.apk, newCommandTimeout=900000, browserName=Android, platformName=Android, udid=0123456789ABCDEF, version=4.2, deviceName=Android Device, deviceReadyTimeout=15, launchTimeout=30000, bootstrap-port=4754}, newCommandTimeout=900000, platformVersion=4.1, webStorageEnabled=false, locationContextEnabled=false, browserName=Android, takesScreenshot=true, javascriptEnabled=true, platformName=Android, udid=0123456789ABCDEF}]
+Session ID: e4d5a10e-c765-4815-b56b-6db43aadcb15
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:102)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:433)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:387)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.test.android.Utilities.toggleWiFi(Utilities.java:120)
+	at com.test.android.testCases.TestRunTimeMatrics.TC_16(TestRunTimeMatrics.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_16 -->
+        <test-method status="PASS" signature="getInfo(org.testng.ITestResult)[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="getInfo" is-config="true" duration-ms="12" started-at="2015-04-29T19:18:14Z" finished-at="2015-04-29T19:18:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_16 status=FAILURE method=TestRunTimeMatrics.TC_16()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInfo -->
+        <test-method status="PASS" signature="TC_17()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="TC_17" duration-ms="31701" started-at="2015-04-29T19:18:14Z" description="navigate to foreground and remain idle for 30s" finished-at="2015-04-29T19:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_17 -->
+        <test-method status="PASS" signature="getInfo(org.testng.ITestResult)[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="getInfo" is-config="true" duration-ms="0" started-at="2015-04-29T19:18:46Z" finished-at="2015-04-29T19:18:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_17 status=SUCCESS method=TestRunTimeMatrics.TC_17()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInfo -->
+        <test-method status="PASS" signature="TC_18()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="TC_18" duration-ms="32071" started-at="2015-04-29T19:18:46Z" description="run app in background for 20 seconds, run app in foreground for 10s" finished-at="2015-04-29T19:19:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_18 -->
+        <test-method status="PASS" signature="getInfo(org.testng.ITestResult)[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="getInfo" is-config="true" duration-ms="1" started-at="2015-04-29T19:19:18Z" finished-at="2015-04-29T19:19:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_18 status=SUCCESS method=TestRunTimeMatrics.TC_18()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInfo -->
+        <test-method status="PASS" signature="TC_18()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="TC_18" duration-ms="31877" started-at="2015-04-29T19:19:18Z" description="run app in background for 20 seconds, run app in foreground for 10s" finished-at="2015-04-29T19:19:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_18 -->
+        <test-method status="PASS" signature="getInfo(org.testng.ITestResult)[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="getInfo" is-config="true" duration-ms="0" started-at="2015-04-29T19:19:50Z" finished-at="2015-04-29T19:19:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_18 status=SUCCESS method=TestRunTimeMatrics.TC_18()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInfo -->
+        <test-method status="PASS" signature="TC_19()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="TC_19" duration-ms="32312" started-at="2015-04-29T19:19:50Z" description="run app in background for 20 seconds, run app in foreground for 10s, using back button" finished-at="2015-04-29T19:20:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_19 -->
+        <test-method status="PASS" signature="getInfo(org.testng.ITestResult)[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="getInfo" is-config="true" duration-ms="2" started-at="2015-04-29T19:20:22Z" finished-at="2015-04-29T19:20:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_19 status=SUCCESS method=TestRunTimeMatrics.TC_19()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInfo -->
+        <test-method status="PASS" signature="TC_19()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="TC_19" duration-ms="32385" started-at="2015-04-29T19:20:22Z" description="run app in background for 20 seconds, run app in foreground for 10s, using back button" finished-at="2015-04-29T19:20:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_19 -->
+        <test-method status="PASS" signature="getInfo(org.testng.ITestResult)[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="getInfo" is-config="true" duration-ms="3" started-at="2015-04-29T19:20:55Z" finished-at="2015-04-29T19:20:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_19 status=SUCCESS method=TestRunTimeMatrics.TC_19()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInfo -->
+        <test-method status="PASS" signature="TC_20()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="TC_20" duration-ms="194766" started-at="2015-04-29T19:20:55Z" description="log foreground and background event, and navigate to FG and BG in 30s interval for 3 mins" finished-at="2015-04-29T19:24:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_20 -->
+        <test-method status="PASS" signature="TC_21()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="TC_21" duration-ms="5462" started-at="2015-04-29T19:24:09Z" description="navigate to background and switch ON wifi network" finished-at="2015-04-29T19:24:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_21 -->
+        <test-method status="PASS" signature="getInfo(org.testng.ITestResult)[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="getInfo" is-config="true" duration-ms="0" started-at="2015-04-29T19:24:09Z" finished-at="2015-04-29T19:24:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_20 status=SUCCESS method=TestRunTimeMatrics.TC_20()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInfo -->
+        <test-method status="PASS" signature="getInfo(org.testng.ITestResult)[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="getInfo" is-config="true" duration-ms="0" started-at="2015-04-29T19:24:15Z" finished-at="2015-04-29T19:24:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_21 status=SUCCESS method=TestRunTimeMatrics.TC_21()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInfo -->
+        <test-method status="PASS" signature="TC_22()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="TC_22" duration-ms="121543" started-at="2015-04-29T19:24:15Z" description="remain idle in foregound for 2 min" finished-at="2015-04-29T19:26:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_22 -->
+        <test-method status="PASS" signature="getInfo(org.testng.ITestResult)[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="getInfo" is-config="true" duration-ms="2" started-at="2015-04-29T19:26:16Z" finished-at="2015-04-29T19:26:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_22 status=SUCCESS method=TestRunTimeMatrics.TC_22()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInfo -->
+        <test-method status="PASS" signature="TC_23()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="TC_23" duration-ms="12780" started-at="2015-04-29T19:26:16Z" description="navigate to BG for 5s and run app in FG for 5s" finished-at="2015-04-29T19:26:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_23 -->
+        <test-method status="PASS" signature="getInfo(org.testng.ITestResult)[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="getInfo" is-config="true" duration-ms="0" started-at="2015-04-29T19:26:29Z" finished-at="2015-04-29T19:26:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_23 status=SUCCESS method=TestRunTimeMatrics.TC_23()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInfo -->
+        <test-method status="PASS" signature="TC_23()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="TC_23" duration-ms="12027" started-at="2015-04-29T19:26:29Z" description="navigate to BG for 5s and run app in FG for 5s" finished-at="2015-04-29T19:26:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_23 -->
+        <test-method status="PASS" signature="getInfo(org.testng.ITestResult)[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="getInfo" is-config="true" duration-ms="2" started-at="2015-04-29T19:26:41Z" finished-at="2015-04-29T19:26:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_23 status=SUCCESS method=TestRunTimeMatrics.TC_23()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInfo -->
+        <test-method status="PASS" signature="TC_23()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="TC_23" duration-ms="11923" started-at="2015-04-29T19:26:41Z" description="navigate to BG for 5s and run app in FG for 5s" finished-at="2015-04-29T19:26:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_23 -->
+        <test-method status="PASS" signature="getInfo(org.testng.ITestResult)[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="getInfo" is-config="true" duration-ms="2" started-at="2015-04-29T19:26:53Z" finished-at="2015-04-29T19:26:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_23 status=SUCCESS method=TestRunTimeMatrics.TC_23()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInfo -->
+        <test-method status="PASS" signature="TC_23()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="TC_23" duration-ms="11967" started-at="2015-04-29T19:26:53Z" description="navigate to BG for 5s and run app in FG for 5s" finished-at="2015-04-29T19:27:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_23 -->
+        <test-method status="PASS" signature="getInfo(org.testng.ITestResult)[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="getInfo" is-config="true" duration-ms="0" started-at="2015-04-29T19:27:05Z" finished-at="2015-04-29T19:27:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_23 status=SUCCESS method=TestRunTimeMatrics.TC_23()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInfo -->
+        <test-method status="PASS" signature="TC_24()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="TC_24" duration-ms="11512" started-at="2015-04-29T19:27:05Z" description="navigate to BG for 5s and run app in FG for 5s, using back button" finished-at="2015-04-29T19:27:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_24 -->
+        <test-method status="PASS" signature="getInfo(org.testng.ITestResult)[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="getInfo" is-config="true" duration-ms="2" started-at="2015-04-29T19:27:17Z" finished-at="2015-04-29T19:27:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_24 status=SUCCESS method=TestRunTimeMatrics.TC_24()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInfo -->
+        <test-method status="PASS" signature="TC_24()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="TC_24" duration-ms="11503" started-at="2015-04-29T19:27:17Z" description="navigate to BG for 5s and run app in FG for 5s, using back button" finished-at="2015-04-29T19:27:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_24 -->
+        <test-method status="PASS" signature="getInfo(org.testng.ITestResult)[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="getInfo" is-config="true" duration-ms="2" started-at="2015-04-29T19:27:28Z" finished-at="2015-04-29T19:27:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_24 status=SUCCESS method=TestRunTimeMatrics.TC_24()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInfo -->
+        <test-method status="PASS" signature="TC_24()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="TC_24" duration-ms="11425" started-at="2015-04-29T19:27:28Z" description="navigate to BG for 5s and run app in FG for 5s, using back button" finished-at="2015-04-29T19:27:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_24 -->
+        <test-method status="PASS" signature="getInfo(org.testng.ITestResult)[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="getInfo" is-config="true" duration-ms="1" started-at="2015-04-29T19:27:40Z" finished-at="2015-04-29T19:27:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_24 status=SUCCESS method=TestRunTimeMatrics.TC_24()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInfo -->
+        <test-method status="PASS" signature="TC_24()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="TC_24" duration-ms="11549" started-at="2015-04-29T19:27:40Z" description="navigate to BG for 5s and run app in FG for 5s, using back button" finished-at="2015-04-29T19:27:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_24 -->
+        <test-method status="PASS" signature="getInfo(org.testng.ITestResult)[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="getInfo" is-config="true" duration-ms="13" started-at="2015-04-29T19:27:51Z" finished-at="2015-04-29T19:27:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_24 status=SUCCESS method=TestRunTimeMatrics.TC_24()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInfo -->
+        <test-method status="PASS" signature="TC_25()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="TC_25" duration-ms="361613" started-at="2015-04-29T19:27:51Z" description="run app in background and foreground for 3 min" finished-at="2015-04-29T19:33:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_25 -->
+        <test-method status="PASS" signature="getInfo(org.testng.ITestResult)[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="getInfo" is-config="true" duration-ms="0" started-at="2015-04-29T19:33:53Z" finished-at="2015-04-29T19:33:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_25 status=SUCCESS method=TestRunTimeMatrics.TC_25()[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInfo -->
+        <test-method status="PASS" signature="tearDown(java.lang.String, java.lang.String)[pri:0, instance:com.test.android.testCases.TestRunTimeMatrics@5f150435]" name="tearDown" is-config="true" duration-ms="130597" started-at="2015-04-29T19:33:53Z" finished-at="2015-04-29T19:36:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4753]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0123456789ABCDEF]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.android.testCases.TestRunTimeMatrics -->
+    </test> <!-- PGSDK Run 1 -->
+  </suite> <!-- PGSDK Test Suite 1 -->
+</testng-results>

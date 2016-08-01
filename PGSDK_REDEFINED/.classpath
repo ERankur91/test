@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="D:/Eclipse/PGSDK_REDEFINED/lib/activation.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/PGSDK_REDEFINED/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/PGSDK_REDEFINED/lib/commons-vfs2-2.0.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/PGSDK_REDEFINED/lib/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/PGSDK_REDEFINED/lib/java-client-1.7.0.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/PGSDK_REDEFINED/lib/javax.mail.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/PGSDK_REDEFINED/lib/jsch-0.1.51.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/PGSDK_REDEFINED/lib/poi-3.10.1-20140818.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/PGSDK_REDEFINED/lib/selenium-server-standalone-2.42.2.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/PGSDK_REDEFINED/lib/sqlite-jdbc-3.8.5-pre1.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse/PGSDK_REDEFINED/lib/testng-6.8.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
